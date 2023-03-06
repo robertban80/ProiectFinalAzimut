@@ -1,0 +1,19 @@
+<!-- luat cu copy/paste din doc TestNG de aici: https://testng.org/doc/documentation-main.html#testng-xml
+    si modificat dupa cazul meu -->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="AllTests" verbose="1" >
+    <parameter name="searchtext" value="1"></parameter>
+
+    <test name="SearchBox" >
+        <classes>
+            <class name="com.intend.tests.HomepageSearchTests" />
+        </classes>
+    </test>
+
+
+
+
+<!--    -->
+</suite>

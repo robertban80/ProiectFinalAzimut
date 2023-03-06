@@ -1,4 +1,4 @@
-package com.mediagalaxy.pages;
+package com.intend.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;

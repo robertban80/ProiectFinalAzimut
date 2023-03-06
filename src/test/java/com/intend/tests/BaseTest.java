@@ -1,4 +1,4 @@
-package com.mediagalaxy.tests;
+package com.intend.tests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;

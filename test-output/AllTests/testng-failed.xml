@@ -4,13 +4,13 @@
   <parameter name="searchtext" value="intel core"/>
   <test thread-count="5" name="AddToCart(failed)">
     <classes>
-      <class name="com.intend.tests.FilteredSearchTests">
+      <class name="com.intend.tests.AddToCartTests">
         <methods>
           <include name="setUp"/>
-          <include name="filterSearchResults"/>
+          <include name="addItemsToCart"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.intend.tests.FilteredSearchTests -->
+      </class> <!-- com.intend.tests.AddToCartTests -->
     </classes>
   </test> <!-- AddToCart(failed) -->
 </suite> <!-- Failed suite [AllTests] -->

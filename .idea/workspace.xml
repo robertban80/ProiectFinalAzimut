@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80f56386-f0db-4c23-9421-60b812a98fef" name="Changes" comment="Update 3" />
+    <list default="true" id="80f56386-f0db-4c23-9421-60b812a98fef" name="Changes" comment="Update 3">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/intend/pages/OrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/intend/tests/AddToCartTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/pages/FilteredSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/pages/FilteredSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/tests/FilteredSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/tests/FilteredSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/tests/HomepageSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/tests/HomepageSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/AllTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/AllTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AllTests/AddToCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/AddToCart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AllTests/AddToCart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/AddToCart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AllTests/SearchBox.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/SearchBox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AllTests/SearchBox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/SearchBox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/AllTests/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.FilteredSearchTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.FilteredSearchTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.HomepageSearchTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.HomepageSearchTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/AddToCart.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/AddToCart.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/SearchBox.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/SearchBox.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678209487278</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update 3">
+      <created>1678210170037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678210170037</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -24,6 +24,7 @@ public class HomepageSearchTests extends BaseTest{
         homepageserach.clickSearch();
         SearchResultsPage searchresultspage = new SearchResultsPage(driver);
         //searchresultspage.returnCurrentUrl();
+
         Assert.assertTrue(searchresultspage.checkSearchResult());
     }
 }

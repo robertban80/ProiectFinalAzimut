@@ -12,12 +12,17 @@
         </classes>
     </test>
 
-    <test name="AddToCart" >
+    <test name="FilterResults" >
         <classes>
             <class name="com.intend.tests.FilteredSearchTests" />
         </classes>
     </test>
 
+    <test name="AddToCart" >
+        <classes>
+            <class name="com.intend.tests.AddToCartTests" />
+        </classes>
+    </test>
 
 
 

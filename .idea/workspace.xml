@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80f56386-f0db-4c23-9421-60b812a98fef" name="Changes" comment="">
+    <list default="true" id="80f56386-f0db-4c23-9421-60b812a98fef" name="Changes" comment="Update 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/pages/HomepageSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/pages/HomepageSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/tests/HomepageSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/tests/HomepageSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/AllTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/AllTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/pages/FilteredSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/pages/FilteredSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/pages/SearchResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/pages/SearchResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/tests/FilteredSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/tests/FilteredSearchTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +56,52 @@
     "project.structure.side.proportion": "0.23448277"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/AllTests.xml">
     <configuration name="C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/AllTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProiectFinalAzimut" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/AllTests.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomepageSearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinalAzimut" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.intend.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.intend.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.intend.tests.HomepageSearchTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.HomepageSearchTests" />
+      <item itemvalue="TestNG.C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/AllTests.xml" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/AllTests.xml" />
+        <item itemvalue="TestNG.HomepageSearchTests" />
       </list>
     </recent_temporary>
   </component>
@@ -86,6 +114,26 @@
       <option name="presentableId" value="Default" />
       <updated>1678133462642</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update 1">
+      <created>1678145980117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678145980117</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update 2">
+      <created>1678192043791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678192043791</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update 1" />
+    <MESSAGE value="Update 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 2" />
   </component>
 </project>

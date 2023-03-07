@@ -13,7 +13,7 @@ public class BaseTest {
 
     @AfterMethod
     protected void tearDown(){
-        //driver.manage().deleteAllCookies();
+        driver.manage().deleteAllCookies();
         //driver.close();
     }
 

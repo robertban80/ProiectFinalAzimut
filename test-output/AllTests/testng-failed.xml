@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [AllTests]" guice-stage="DEVELOPMENT">
   <parameter name="searchtext" value="intel core"/>
-  <test thread-count="5" name="AddToCart(failed)">
+  <test thread-count="5" name="ModifyItemsInCart(failed)">
     <classes>
-      <class name="com.intend.tests.AddToCartTests">
+      <class name="com.intend.tests.ModifyCartTests">
         <methods>
+          <include name="modifyItemInCart"/>
           <include name="setUp"/>
-          <include name="addItemsToCart"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.intend.tests.AddToCartTests -->
+      </class> <!-- com.intend.tests.ModifyCartTests -->
     </classes>
-  </test> <!-- AddToCart(failed) -->
+  </test> <!-- ModifyItemsInCart(failed) -->
 </suite> <!-- Failed suite [AllTests] -->

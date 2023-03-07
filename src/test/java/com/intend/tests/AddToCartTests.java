@@ -1,7 +1,11 @@
 package com.intend.tests;
 
 import com.intend.pages.FilteredSearchPage;
+import com.intend.pages.OrderPage;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import static com.intend.pages.BasePage.BASE_URL;
 
 public class AddToCartTests extends BaseTest{
     @Test
@@ -13,8 +17,15 @@ public class AddToCartTests extends BaseTest{
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
-        driver.navigate().back();
+        OrderPage orderPage = new OrderPage(driver);
+        Assert.assertFalse(orderPage.shoppingCartText().contains("Nu sunt produse in cos."));
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        orderPage.pressContinueShoppingButton();
+        //driver.navigate().back();
 
         filteredSearchPage.addToCart2();
         try {
@@ -22,5 +33,9 @@ public class AddToCartTests extends BaseTest{
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        //ne intoafrcem in cosul de cumparaturi
+        driver.navigate().to(BASE_URL + "comanda");
+        Assert.assertTrue(orderPage.returnCartStatus().contains("produse in cos (2)"));
+
     }
 }

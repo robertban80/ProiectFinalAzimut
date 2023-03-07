@@ -9,17 +9,48 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">AllTests</th></tr>
-<tr><td><a href="#t0">SearchBox</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,352</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">FilterResults</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,167</td><td></td><td></td></tr>
-<tr><td><a href="#t2">AddToCart</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,349</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">19,868</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">SearchBox</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,860</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">FilterResults</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,283</td><td></td><td></td></tr>
+<tr><td><a href="#t2">AddToCart</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,947</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">ModifyItemsInCart</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">55</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">23,145</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AllTests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SearchBox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.intend.tests.HomepageSearchTests</td><td><a href="#m0">SeachBoxInput</a></td><td rowspan="1">1678222077520</td><td rowspan="1">7287</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">FilterResults &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.intend.tests.FilteredSearchTests</td><td><a href="#m1">filterSearchResults</a></td><td rowspan="1">1678222084865</td><td rowspan="1">7163</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">AddToCart &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.intend.tests.AddToCartTests</td><td><a href="#m2">addItemsToCart</a></td><td rowspan="1">1678222092038</td><td rowspan="1">5347</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AllTests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">SearchBox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.intend.tests.HomepageSearchTests</td><td><a href="#m0">SeachBoxInput</a></td><td rowspan="1">1678229203576</td><td rowspan="1">7782</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">FilterResults &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.intend.tests.FilteredSearchTests</td><td><a href="#m1">filterSearchResults</a></td><td rowspan="1">1678229211430</td><td rowspan="1">7279</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">AddToCart &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.intend.tests.AddToCartTests</td><td><a href="#m2">addItemsToCart</a></td><td rowspan="1">1678229218720</td><td rowspan="1">7944</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">ModifyItemsInCart &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.intend.tests.ModifyCartTests</td><td><a href="#m3">modifyItemInCart</a></td><td rowspan="1">1678229226682</td><td rowspan="1">35</td></tr></tbody>
 </table>
 <h2>SearchBox</h2><h3 id="m0">com.intend.tests.HomepageSearchTests#SeachBoxInput</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>intel core</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h2>FilterResults</h2><h3 id="m1">com.intend.tests.FilteredSearchTests#filterSearchResults</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h2>AddToCart</h2><h3 id="m2">com.intend.tests.AddToCartTests#addItemsToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ModifyItemsInCart</h2><h3 id="m3">com.intend.tests.ModifyCartTests#modifyItemInCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;products-cart-list&quot;]/ul/li[2]/div/section/table/tbody/tr/td[4]&quot;}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.8.0&apos;, revision: &apos;267030adea&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [792c10e568c05038ae7f8379f4ad52ad, findElement {using=xpath, value=//*[@id=&quot;products-cart-list&quot;]/ul/li[2]/div/section/table/tbody/tr/td[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\robert.ban\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56921}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56921/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 792c10e568c05038ae7f8379f4ad52ad
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+	at com.intend.pages.ModifyCartPage.clickOnCartTrashBin(ModifyCartPage.java:19)
+	at com.intend.tests.ModifyCartTests.modifyItemInCart(ModifyCartTests.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

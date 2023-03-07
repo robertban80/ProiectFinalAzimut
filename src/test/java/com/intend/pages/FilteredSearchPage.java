@@ -24,8 +24,6 @@ public class FilteredSearchPage extends BasePage {
     private WebElement addToCartButton;
     @FindBy(xpath = "//*[@id=\"products\"]/div/div[2]/div[2]/div[3]/div/div[5]/a[1]")
     private WebElement addToCartButton2;
-    @FindBy (xpath = "//*[@id=\"utility-check\"]/a") private WebElement continueShoppingButton;
-
 
 
     public void checkStocMagazinCheckBox() {
@@ -62,10 +60,6 @@ public class FilteredSearchPage extends BasePage {
     }
     public void addToCart2() {
         addToCartButton2.click();
-    }
-
-    public void pressContinueShoppingButton(){
-        continueShoppingButton.click();
     }
 
     public String returnCurrentUrl() {

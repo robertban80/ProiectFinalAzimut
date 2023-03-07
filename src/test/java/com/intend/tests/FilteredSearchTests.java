@@ -14,14 +14,16 @@ public class FilteredSearchTests extends BaseTest {
     @Test
     public void filterSearchResults() {
         FilteredSearchPage filteredSearchPage = new FilteredSearchPage(driver);
+        //vreu sa filtrez doar dupa stocul din magazin
         filteredSearchPage.checkStocMagazinCheckBox();
-        filteredSearchPage.returnCurrentUrl();
         Assert.assertTrue(filteredSearchPage.returnCurrentUrl().contains("stoc-pret"));
+
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        //ma intereseaza doar categoria Procesoare
         filteredSearchPage.pickCategorieProcesoare();
         Assert.assertTrue(filteredSearchPage.returnCurrentUrl().contains("idc=2"));
 
@@ -30,36 +32,6 @@ public class FilteredSearchTests extends BaseTest {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
-//        filteredSearchPage.addToCart();
-//
-//        try {
-//            Thread.sleep(3000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
-//
-//        driver.navigate().refresh();
-//
-//        try {
-//            Thread.sleep(3000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
-
-        //filteredSearchPage.pressContinueShoppingButton();
-
-//        OrderPage orderPage = new OrderPage(driver);
-//        orderPage.emptyCartTrashBin();
-//
-//        try {
-//            Thread.sleep(3000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
-//
-//        if (orderPage.emptyCartText().contains("Nu sunt produse in cos.")) System.out.println("E gol!");
-//
 
     }
 

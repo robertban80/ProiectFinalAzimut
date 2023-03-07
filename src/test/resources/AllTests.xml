@@ -24,6 +24,12 @@
         </classes>
     </test>
 
+    <test name="ModifyItemsInCart" >
+        <classes>
+            <class name="com.intend.tests.ModifyCartTests" />
+        </classes>
+    </test>
+
 
 
 

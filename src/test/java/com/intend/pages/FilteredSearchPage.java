@@ -18,8 +18,11 @@ public class FilteredSearchPage extends BasePage {
     private WebElement stocFurnizorCheckBox;
     @FindBy(xpath = "//*[@id=\"list-filters\"]/li[3]/ul/li[4]/label")
     private WebElement promotiiCheckBox;
-    @FindBy(xpath = "//*[@id=\"list-filters\"]/li[4]/ul/li[9]/label/a")
-    private WebElement categorieProcesoare;
+    //@FindBy (tagName = "brand-2") private WebElement categorieProcesoare;
+    @FindBy(xpath = "//*[@id=\"list-filters\"]/li[4]/ul/li[9]/label/a") private WebElement categorieProcesoare;
+    //*[@id="list-filters"]/li[4]/ul/li[6]/label // for amd ryzen
+    //*[@id="list-filters"]/li[4]/ul/li[9]/label // for intel core
+
     @FindBy(css = "#products > div > div.right-section-products > div.products-list.grid-view-products > div:nth-child(1) > div > div.price-section > a.inner-details-btn.add-to-cart")
     private WebElement addToCartButton;
     @FindBy(xpath = "//*[@id=\"products\"]/div/div[2]/div[2]/div[3]/div/div[5]/a[1]")

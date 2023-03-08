@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-08T09:38:58 EET" name="AllTests" finished-at="2023-03-08T09:39:27 EET" duration-ms="28363">
+  <suite started-at="2023-03-08T09:49:48 EET" name="AllTests" finished-at="2023-03-08T09:50:14 EET" duration-ms="26030">
     <groups>
     </groups>
-    <test started-at="2023-03-08T09:38:58 EET" name="SearchBox" finished-at="2023-03-08T09:39:09 EET" duration-ms="10455">
+    <test started-at="2023-03-08T09:49:48 EET" name="SearchBox" finished-at="2023-03-08T09:49:58 EET" duration-ms="10094">
       <class name="com.intend.tests.HomepageSearchTests">
-        <test-method signature="SeachBoxInput(java.lang.String)[pri:0, instance:com.intend.tests.HomepageSearchTests@3b07a0d6]" started-at="2023-03-08T09:38:58 EET" name="SeachBoxInput" finished-at="2023-03-08T09:39:09 EET" duration-ms="10411" status="PASS">
+        <test-method signature="SeachBoxInput(java.lang.String)[pri:0, instance:com.intend.tests.HomepageSearchTests@7d3a22a9]" started-at="2023-03-08T09:49:48 EET" name="SeachBoxInput" finished-at="2023-03-08T09:49:58 EET" duration-ms="10054" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,25 +20,25 @@
         </test-method> <!-- SeachBoxInput -->
       </class> <!-- com.intend.tests.HomepageSearchTests -->
     </test> <!-- SearchBox -->
-    <test started-at="2023-03-08T09:39:09 EET" name="FilterResults" finished-at="2023-03-08T09:39:18 EET" duration-ms="9316">
+    <test started-at="2023-03-08T09:49:58 EET" name="FilterResults" finished-at="2023-03-08T09:50:05 EET" duration-ms="7124">
       <class name="com.intend.tests.FilteredSearchTests">
-        <test-method signature="filterSearchResults()[pri:0, instance:com.intend.tests.FilteredSearchTests@1677d1]" started-at="2023-03-08T09:39:09 EET" name="filterSearchResults" finished-at="2023-03-08T09:39:18 EET" duration-ms="9315" status="PASS">
+        <test-method signature="filterSearchResults()[pri:0, instance:com.intend.tests.FilteredSearchTests@63a65a25]" started-at="2023-03-08T09:49:58 EET" name="filterSearchResults" finished-at="2023-03-08T09:50:05 EET" duration-ms="7122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filterSearchResults -->
       </class> <!-- com.intend.tests.FilteredSearchTests -->
     </test> <!-- FilterResults -->
-    <test started-at="2023-03-08T09:39:18 EET" name="AddToCart" finished-at="2023-03-08T09:39:27 EET" duration-ms="8522">
+    <test started-at="2023-03-08T09:50:05 EET" name="AddToCart" finished-at="2023-03-08T09:50:14 EET" duration-ms="8739">
       <class name="com.intend.tests.AddToCartTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.intend.tests.AddToCartTests@75329a49]" started-at="2023-03-08T09:38:58 EET" name="setUp" finished-at="2023-03-08T09:38:58 EET" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.intend.tests.AddToCartTests@43301423]" started-at="2023-03-08T09:49:48 EET" name="setUp" finished-at="2023-03-08T09:49:48 EET" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addItemsToCart()[pri:0, instance:com.intend.tests.AddToCartTests@75329a49]" started-at="2023-03-08T09:39:18 EET" name="addItemsToCart" finished-at="2023-03-08T09:39:27 EET" duration-ms="8521" status="PASS">
+        <test-method signature="addItemsToCart()[pri:0, instance:com.intend.tests.AddToCartTests@43301423]" started-at="2023-03-08T09:50:05 EET" name="addItemsToCart" finished-at="2023-03-08T09:50:14 EET" duration-ms="8734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemsToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.intend.tests.AddToCartTests@75329a49]" started-at="2023-03-08T09:39:27 EET" name="tearDown" finished-at="2023-03-08T09:39:28 EET" duration-ms="1150" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.intend.tests.AddToCartTests@43301423]" started-at="2023-03-08T09:50:14 EET" name="tearDown" finished-at="2023-03-08T09:50:15 EET" duration-ms="1163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

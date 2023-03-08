@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80f56386-f0db-4c23-9421-60b812a98fef" name="Changes" comment="Update 5">
+    <list default="true" id="80f56386-f0db-4c23-9421-60b812a98fef" name="Changes" comment="Update 6">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Driver_Notes/EULA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Driver_Notes/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Driver_Notes/credits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/msedgedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/pages/ModifyCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/pages/ModifyCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/pages/FilteredSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/pages/FilteredSearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/tests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/tests/HomepageSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/tests/HomepageSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/intend/tests/ModifyCartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intend/tests/ModifyCartTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/AllTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/AllTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/AllTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/AllTests/AddToCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/AddToCart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/AllTests/AddToCart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/AddToCart.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/AllTests/FilterResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/FilterResults.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/AllTests/FilterResults.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/FilterResults.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/AllTests/ModifyItemsInCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/ModifyItemsInCart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/AllTests/ModifyItemsInCart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/ModifyItemsInCart.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/AllTests/SearchBox.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/SearchBox.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/AllTests/SearchBox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/SearchBox.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/AllTests/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/AllTests/testng-failed.xml" afterDir="false" />
@@ -27,16 +27,8 @@
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.AddToCartTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.AddToCartTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.FilteredSearchTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.FilteredSearchTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.HomepageSearchTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.HomepageSearchTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.ModifyCartTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.intend.tests.ModifyCartTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/AddToCart.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/AddToCart.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/FilterResults.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/FilterResults.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/SearchBox.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/SearchBox.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/AllTests/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/AllTests/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
@@ -78,6 +70,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -87,7 +80,7 @@
     "project.structure.side.proportion": "0.23448277"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/AllTests.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/TestSuite.xml">
     <configuration name="C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/AllTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProiectFinalAzimut" />
       <shortenClasspath name="NONE" />
@@ -102,6 +95,16 @@
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/TestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ProiectFinalAzimut" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/TestSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -126,11 +129,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/TestSuite.xml" />
       <item itemvalue="TestNG.HomepageSearchTests" />
       <item itemvalue="TestNG.C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/AllTests.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/TestSuite.xml" />
         <item itemvalue="TestNG.C:/Users/robert.ban/IdeaProjects/ProiectFinalAzimut/src/test/resources/AllTests.xml" />
         <item itemvalue="TestNG.HomepageSearchTests" />
       </list>
@@ -187,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678229298459</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update 6">
+      <created>1678261222212</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678261222213</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,11 +214,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update 1" />
     <MESSAGE value="Update 2" />
     <MESSAGE value="Update 3" />
     <MESSAGE value="Update 4" />
     <MESSAGE value="Update 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 5" />
+    <MESSAGE value="Update 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 6" />
   </component>
 </project>

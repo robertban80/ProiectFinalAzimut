@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 import static com.intend.pages.HomepageSearchPage.HOME_URL;
 
 public class HomepageSearchTests extends BaseTest{
-    @Parameters({"searchtext"}) // parametrul este definit in AllTests.xml!!!
+    @Parameters({"searchtext"}) // parametrul este definit in TestSuite.xml!!!
     @Test
     public void SeachBoxInput(String searchedText){
         //driver = new ChromeDriver();

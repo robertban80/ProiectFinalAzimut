@@ -2,6 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [AllTests]" guice-stage="DEVELOPMENT">
   <parameter name="searchtext" value="intel core"/>
+  <test thread-count="5" name="SearchBox(failed)">
+    <classes>
+      <class name="com.intend.tests.HomepageSearchTests">
+        <methods>
+          <include name="SeachBoxInput" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.intend.tests.HomepageSearchTests -->
+    </classes>
+  </test> <!-- SearchBox(failed) -->
   <test thread-count="5" name="FilterResults(failed)">
     <classes>
       <class name="com.intend.tests.FilteredSearchTests">

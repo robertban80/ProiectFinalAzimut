@@ -1,20 +1,19 @@
 package com.intend.tests;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 
 public class BaseTest {
     protected static WebDriver driver;
-    @BeforeMethod
+    @BeforeSuite
     protected void setUp(){
         System.setProperty("webdrive.chrome.driver","src/main/resources/chromedriver.exe");
     }
 
-    @AfterMethod
+    @AfterSuite
     protected void tearDown(){
-        //driver.manage().deleteAllCookies();
-        //driver.close();
+        driver.manage().deleteAllCookies();
+        driver.close();
     }
 
 }

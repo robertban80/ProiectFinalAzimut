@@ -29,7 +29,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.8.0</version> <!-- the latest version(4.8.1) didn't worked, so changed to this one -->
+            <version>4.8.1</version> <!-- the latest version(4.8.1) didn't worked, so changed to this one -->
         </dependency>
 
     </dependencies>

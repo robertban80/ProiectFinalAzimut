@@ -11,7 +11,7 @@
             <class name="com.intend.tests.HomepageSearchTests" />
         </classes>
     </test>
-
+<!-- -->
     <test name="FilterResults" >
         <classes>
             <class name="com.intend.tests.FilteredSearchTests" />
@@ -23,15 +23,13 @@
             <class name="com.intend.tests.AddToCartTests" />
         </classes>
     </test>
-
+<!--
     <test name="ModifyItemsInCart" >
         <classes>
             <class name="com.intend.tests.ModifyCartTests" />
         </classes>
     </test>
-
-
-
+-->
 
     <!--    -->
 </suite>

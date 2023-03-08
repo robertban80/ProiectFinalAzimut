@@ -5,6 +5,8 @@ import com.intend.pages.OrderPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 import static com.intend.pages.BasePage.BASE_URL;
 
 public class ModifyCartTests extends BaseTest{
@@ -12,6 +14,7 @@ public class ModifyCartTests extends BaseTest{
     public void modifyItemInCart(){
         //OrderPage orderPage = new OrderPage(driver);
         ModifyCartPage modifyCartPage = new ModifyCartPage(driver);
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 
         modifyCartPage.clickOnCartTrashBin();
         try {
